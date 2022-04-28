@@ -1,5 +1,5 @@
 # PrintingSquares
- Create a project for exercise #10 on p. 159 in the book, which prints out the square of an input number in a loop. Without changing the loop type, modify the code to incorporate an IF statement to prevent printout when the input equals the sentinel value of zero.
+ Create a project for exercise #10 on p. 159 in the book (Introduction to Programming with Java A Problem Solving Approach Second Edition by John Dean and Raymond Dean), which prints out the square of an input number in a loop. Without changing the loop type, modify the code to incorporate an IF statement to prevent printout when the input equals the sentinel value of zero.
 
 First, create the project that contains the code fragment in the book. Run it – you should notice right away that there is no prompt telling the user to type the number to be squared. Add that line of code, asking for the number, and have the user type the input on the same line to the right of the question. Also add a line before the loop starts that prints the project name and your name. Run the program and give it 3 numbers to work with, then 0 to quit. Notice that even though that input of 0 meant the program should end, it prints out the square of zero – it processed the number before quitting. Take a screenshot of the results.
 
