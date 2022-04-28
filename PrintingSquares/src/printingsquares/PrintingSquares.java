@@ -5,6 +5,8 @@
  */
 package printingsquares;
 
+import java.util.Scanner;
+
 /**
  *
  * @author 4800590195
@@ -16,6 +18,23 @@ public class PrintingSquares {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.print("Printing Squared Numbers by Kevin Bell \n");
+        int x;
+        Scanner computerKeyboardInput = new Scanner(System.in);
+        do
+        {
+            System.out.print("Enter a number to be squared: ");
+            x = computerKeyboardInput.nextInt();
+            if (x == 0) {
+                return;
+            } else {
+                System.out.println("square = " + (x * x));
+            }     
+        } while (x != 0);
+        //VARIABLES
+        //INPUT
+        //DO THE WORK
+        //OUTPUT
     }
     
 }
